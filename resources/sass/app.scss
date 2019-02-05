@@ -1,0 +1,77 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+//Carga de archivos de fuentes de Font Awesome desde la dependencia instalada
+$fa-font-path: '../webfonts';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font Awesome :: Importadas
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+// *********************************************************
+
+#nav.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+#nav.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#panel-contenido-main { margin-top: 100px; }
+
+.lista_indice { font-weight: bold; }
+
+.negrita {
+    font-weight: bold;
+}
+
+a.registro_activo_si {
+    color: green;
+}
+
+a.registro_activo_no {
+    color: red;
+}
+
+fieldset {
+    border: solid 5px black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+}
+
+legend {
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    width: auto;
+}
+
+.pagination {
+    margin-left: 15px;
+}
+
+//Redondeo lateral de borde en inputs con "input-group-prepend"
+.borde_redondeo_lateral_dcho {
+    border-radius: 0 5px 5px 0 !important;
+}
